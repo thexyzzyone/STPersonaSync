@@ -1,0 +1,81 @@
+.personaSync_settings .inline-drawer-content > * + * {
+    margin-top: 10px;
+}
+
+.stps-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stps-hint {
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+
+.stps-table-wrap {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.stps-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stps-table th,
+.stps-table td {
+    padding: 4px 8px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.stps-avatar {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.stps-arrow {
+    opacity: 0.6;
+}
+
+.stps-persona-name-sub {
+    opacity: 0.7;
+    font-size: 0.85em;
+}
+
+.stps-target-select {
+    width: 100%;
+}
+
+.stps-row-failed {
+    outline: 1px solid var(--warning, #e6a23c);
+}
+
+.stps-row-synced {
+    outline: 1px solid var(--success, #67c23a);
+}
+
+.stps-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stps-status {
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+
+.stps-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.stps-empty {
+    text-align: center;
+    opacity: 0.7;
+    padding: 20px;
+}
