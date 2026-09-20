@@ -36,8 +36,8 @@ character list.
 
 ## Requirements
 
-Relies on this fork's `/api/characters/merge-attributes` endpoint (partial,
-deep-merge character updates) — this is not present in vanilla SillyTavern.
+Requires SillyTavern 1.18.0 or later, for the `/api/characters/merge-attributes`
+endpoint (partial, deep-merge character updates) it relies on.
 
 ## Manual installation
 
